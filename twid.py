@@ -1,10 +1,7 @@
 import argparse
 import json
 import requests
-''' TODO
-		-v for all output
-		format the timestamps a bit
-'''
+
 parser = argparse.ArgumentParser(description='twitter user wayback')
 parser.add_argument('screen_name', type=str, help='target')
 parser.add_argument('-v', help='verbose output (print all capture timestamps)', action='store_true', dest='verbose')
